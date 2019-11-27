@@ -18,16 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: My awesome blog
-email: your-email@example.com
+title: spetex's miniature painting
+email: spetex@icloud.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to my blog about all things miniature painting. I write about my projects,
+  ideas, techniques and opinions on tools I use. If you want to get entertained and
+  maybe learn a little, you are on a the right place.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://blog.spetex.cz" # the base hostname & protocol for your site, e.g. http://example.com
+instagram_username: spetex.minis
 
 # Build settings
 theme: minima
