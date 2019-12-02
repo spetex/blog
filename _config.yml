@@ -30,8 +30,7 @@ instagram_username: spetex.minis
 
 # Build settings
 theme: mini-painter-blog
-plugins:
-  - jekyll-feed
+# plugins:
 
 # Exclude from processing.
 # The following items will not be processed, by default.
