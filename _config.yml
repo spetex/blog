@@ -29,7 +29,7 @@ url: "https://blog.spetex.cz" # the base hostname & protocol for your site, e.g.
 instagram_username: spetex.minis
 
 # Build settings
-theme: minima
+theme: mini-painter-blog
 plugins:
   - jekyll-feed
 
