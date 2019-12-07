@@ -23,6 +23,7 @@ GEM
       guard (~> 2.0)
       rubocop (~> 0.20)
     jaro_winkler (1.5.4)
+    liquid (4.0.3)
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -43,6 +44,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    redcarpet (3.5.0)
     rerun (0.13.0)
       listen (~> 3.0)
     roda (3.26.0)
@@ -66,6 +68,8 @@ DEPENDENCIES
   guard
   guard-bundler
   guard-rubocop
+  liquid
+  redcarpet
   rerun
   roda
   rubocop

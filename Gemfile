@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'liquid'
+gem 'redcarpet'
 gem 'roda'
 
 group :development do
