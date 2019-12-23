@@ -17,6 +17,8 @@ def read_vars(config)
 end
 
 class BlogApp < Roda
+  plugin :public
+
   article_template = Liquid::Template.parse(File.read('layouts/article.html'))
   markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
 
@@ -37,6 +39,10 @@ class BlogApp < Roda
 
       html_body = markdown.render(article_markdown)
       article_template.render({ 'body' => html_body } + vars)
+    end
+
+    r.on 'public' do
+      r.public
     end
 
     r.on do

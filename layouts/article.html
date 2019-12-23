@@ -1,8 +1,13 @@
 <html>
   <head>
     <title>{{ name }}</title>
+  	<link rel='stylesheet' href='/public/global.css'>
+  	<link rel='stylesheet' href='/public/build/bundle.css'>
+  	<script defer src='/public/build/bundle.js'></script>
   </head>
   <body>
-    {{ body }}
+    <div id="contents">
+      {{ body }}
+    </div>
   </body>
 </html>
