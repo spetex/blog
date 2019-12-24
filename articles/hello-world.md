@@ -1,7 +1,7 @@
-name: 'Hello World!'
+title: 'Hello World!'
 published: '2019-12-07'
 ---
-# {{ name }}
+# {{ title }}
 
 This is a test **article!** published on {{ published }}.
 

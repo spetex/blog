@@ -1,10 +1,22 @@
 <script>
 	import { onMount } from 'svelte'
-	let body = document.getElementById('contents').innerHTML
+	let article = document.getElementsByTagName('article')[0]
+	let homepage = document.getElementsByTagName('main')[0]
 
 	onMount(() => {
-		document.getElementById('contents').remove()
+		if (article) article.remove()
+		if (homepage) homepage.remove()
 	})
 </script>
 
-{@html body}
+{#if article}
+	<article>
+		{@html article.innerHTML}
+	</article>
+{/if}
+
+{#if homepage}
+	<main>
+		{@html homepage.innerHTML}
+	</main>
+{/if}

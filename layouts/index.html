@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>{{ title }}</title>
+  	<link rel='stylesheet' href='/public/global.css'>
+    {% if svelte %}
+    	<link rel='stylesheet' href='/public/build/bundle.css'>
+    	<script defer src='/public/build/bundle.js'></script>
+    {% endif %}
+  </head>
+  <body>
+    {{ body }}
+  </body>
+</html>
