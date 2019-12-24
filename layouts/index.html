@@ -8,11 +8,27 @@
     <title>{{ title }}</title>
 
     <link rel="stylesheet" type="text/css" href="https://static.spetex.cz/css/reset.css">
-  	<link rel='stylesheet' type="text/css" href='/global.css'>
+  	<link rel="stylesheet" type="text/css" href="/global.css">
     {% if svelte %}
-    <link rel='stylesheet' type="text/css" href='/build/bundle.css'>
-    <script defer src='/build/bundle.js'></script>
+    <link rel="stylesheet" type="text/css" href="/build/bundle.css">
+    <script defer src="/build/bundle.js"></script>
     {% endif %}
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i&display=swap"
+      crossorigin="anonymous"
+      rel="stylesheet"
+    >
+    <link
+      href="https://fonts.googleapis.com/css?family=Alegreya:700&display=swap"
+      crossorigin="anonymous"
+      rel="stylesheet"
+    >
+    <link
+      href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap"
+      crossorigin="anonymous"
+      rel="stylesheet"
+    >
   </head>
   <body>
     {{ body }}
