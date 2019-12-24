@@ -1,0 +1,62 @@
+/* Typography */
+html {
+  font-size: 16px;
+  background-image: url('./dust-scratches.png');
+}
+body {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  line-height: 1.55;
+  padding: 0 1.5rem;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Alegreya', serif;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 2.75rem 0 1rem;
+}
+code {
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+}
+h1 {
+  font-size: 4.209rem;
+  margin-top: 0;
+}
+h2 {
+  font-size: 3.157rem;
+}
+h3 {
+  font-size: 2.369rem;
+}
+h4 {
+  font-size: 1.777rem;
+}
+h5 {
+  font-size: 1.333rem;
+}
+p {
+  margin-bottom: 1.25em;
+}
+ul {
+  list-style: inside square;
+}
+ol {
+  list-style: inside arabic;
+}
+ul ol, ol ul, ol ol, ul ul {
+  margin-left: 1.5rem;
+}
+
+/* Layout */
+article {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+img {
+  max-width: 100%;
+}
