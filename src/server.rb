@@ -20,9 +20,7 @@ class BlogApp < Roda
       render_article article_slug
     end
     # PUBLIC
-    r.on 'public' do
-      r.public
-    end
+    r.public
     # NOT FOUND
     r.on do
       render_not_found response
