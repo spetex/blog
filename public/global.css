@@ -7,7 +7,6 @@ body {
   font-family: 'Merriweather', serif;
   font-weight: 400;
   line-height: 1.55;
-  padding: 0 1.5rem;
 }
 h1, h2, h3, h4, h5 {
   font-family: 'Alegreya', serif;
@@ -49,14 +48,30 @@ ul ol, ol ul, ol ol, ul ul {
 }
 
 /* Layout */
-article {
+article, main {
+  min-height: 100vh;
+}
+article, section, main {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+}
+article {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
 img {
   max-width: 100%;
+}
+
+/* Colors */
+html {
+  color: var(--darkslategray);
+}
+a {
+  color: var(--indianred);
+}
+mark {
+  background-color: var(--goldenrod);
 }
