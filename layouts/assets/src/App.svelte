@@ -11,6 +11,7 @@
 
 {#if article}
 	<article>
+		<div>Article Header</div>
 		{@html article.innerHTML}
 	</article>
 {/if}
