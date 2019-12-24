@@ -1,3 +1,3 @@
-require './server.rb'
+require './src/server.rb'
 
 run BlogApp
