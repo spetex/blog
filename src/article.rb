@@ -3,7 +3,7 @@ def get_article_body(article_markdown, vars)
 end
 
 def render_article(slug)
-  config, article_markdown = File.read("articles/#{slug}.md").split('---')
+  config, article_markdown = File.read("articles/#{slug}.md").split('#-----#')
   vars = {
     'svelte' => true
   } + read_vars(config)
