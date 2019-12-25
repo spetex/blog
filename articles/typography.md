@@ -33,18 +33,6 @@ It is "kinda" relevant.
 
 Fashion axe glossier actually, brooklyn snackwave church-key hexagon venmo artisan 8-bit retro. Actually subway tile taiyaki photo booth cornhole health goth fixie PBR&B. Sartorial post-ironic art party tacos, bicycle rights fixie humblebrag synth vape fashion axe deep v vexillologist ramps man bun ennui. Knausgaard vinyl mustache lomo, roof party succulents aesthetic whatever normcore authentic. Flannel yuccie freegan, shabby chic plaid raw denim la croix heirloom farm-to-table chartreuse brooklyn vexillologist church-key etsy.
 
-```
-def render_article(slug)
-  config, article_markdown = File.read("articles/#{slug}.md").split('===')
-  vars = {
-    'svelte' => true
-  } + read_vars(config)
-  body = get_template('layouts/article.html')
-         .render 'body' => get_article_body(article_markdown, vars)
-  final_render(body, vars)
-end
-```
-
 Activated charcoal squid 8-bit raclette DIY. [Viral wolf cold-pressed](.), yr crucifix synth iceland neutra air plant hoodie flexitarian ugh. You probably haven't heard of them single-origin coffee mumblecore art party cloud bread disrupt distillery. Unicorn fashion axe fixie shoreditch. Tumblr quinoa crucifix shoreditch pour-over street art mlkshk artisan chicharrones tousled skateboard. Austin affogato 3 wolf moon ennui, cloud bread keytar dreamcatcher.
 
 #### Whatever fanny pack narwhal
