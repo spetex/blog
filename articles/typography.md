@@ -57,23 +57,26 @@ Whatever fanny pack narwhal, organic small batch lumbersexual brooklyn. Gochujan
 
 
 ##### Lumberjack gluten-free selfies
-<picture>
-  <source
-    srcset="
-      https://static.spetex.cz/photos/webp1000px/me-painter.webp 1000w,
-      https://static.spetex.cz/photos/webp500px/me-painter.webp 500w
-    "
-    sizes="(max-width: 500px) 500px, 1000px"
-    type="image/webp">
-  <source
-    srcset="
-      https://static.spetex.cz/photos/jpeg1000px/me-painter.jpg 1000w,
-      https://static.spetex.cz/photos/jpeg500px/me-painter.jpg 500w
-    "
-    sizes="(max-width: 500px) 500px, 1000px"
-    type="image/jpg">
-  <img class="in-text" alt="Petr sitting and painting." src="https://static.spetex.cz/photos/jpeg1000px/me-painter.jpg">
-</picture>
+
+<div>
+  <picture>
+    <source
+      srcset="
+        https://static.spetex.cz/photos/webp1000px/me-painter.webp 1000w,
+        https://static.spetex.cz/photos/webp500px/me-painter.webp 500w
+      "
+      sizes="(max-width: 500px) 500px, 1000px"
+      type="image/webp">
+    <source
+      srcset="
+        https://static.spetex.cz/photos/jpeg1000px/me-painter.jpg 1000w,
+        https://static.spetex.cz/photos/jpeg500px/me-painter.jpg 500w
+      "
+      sizes="(max-width: 500px) 500px, 1000px"
+      type="image/jpg">
+    <img class="in-text" alt="Petr sitting and painting." src="https://static.spetex.cz/photos/jpeg1000px/me-painter.jpg">
+  </picture>
+</div>
 <small>The display of ultimate mastery.</small>
 
 Portland gluten-free selfies paleo chartreuse fanny pack pinterest bespoke hoodie godard humblebrag lyft vaporware. Hexagon fashion axe vaporware, shabby chic hashtag biodiesel selfies pork belly mustache unicorn glossier snackwave schlitz. VHS hoodie bicycle rights poke messenger bag tilde semiotics tattooed man bun. Umami crucifix yr hell of plaid, kale chips whatever fanny pack fingerstache synth taiyaki messenger bag meditation waistcoat.
