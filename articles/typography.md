@@ -29,6 +29,9 @@ Activated charcoal squid 8-bit [^2] raclette DIY. Viral wolf cold-pressed, yr cr
 
 It is "kinda" relevant.
 
+1. For me
+1. For you
+
 ### Fashion axe glossier actually
 
 Fashion axe glossier actually, brooklyn snackwave church-key hexagon venmo artisan 8-bit retro. Actually subway tile taiyaki photo booth cornhole health goth fixie PBR&B. Sartorial post-ironic art party tacos, bicycle rights fixie humblebrag synth vape fashion axe deep v vexillologist ramps man bun ennui. Knausgaard vinyl mustache lomo, roof party succulents aesthetic whatever normcore authentic. Flannel yuccie freegan, shabby chic plaid raw denim la croix heirloom farm-to-table chartreuse brooklyn vexillologist church-key etsy.
