@@ -49,10 +49,10 @@ blockquote > p {
   margin-top: 0;
 }
 ul {
-  list-style: inside square;
+  list-style: outside square;
 }
 ol {
-  list-style: inside arabic;
+  list-style: outside arabic;
 }
 ul ol, ol ul, ol ol, ul ul {
   margin-top: 0;
