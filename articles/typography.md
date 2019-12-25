@@ -4,8 +4,6 @@ published: '2019-12-25'
 
 # {{ title }}
 
-<small>The ultimate typography display.</small>
-
 Lorem ipsum dolor amet shabby chic ramps lyft raclette gochujang master cleanse bespoke jean shorts lumbersexual [^1] stumptown listicle edison bulb. Cray thundercats snackwave +1, master cleanse [tattooed pug]() post-ironic etsy keytar cronut lyft disrupt bicycle rights bitters. YOLO VHS kombucha, skateboard franzen ==helvetica waistcoat== fanny pack humblebrag craft beer organic [gluten-free](.) tbh prism. Vinyl poke pinterest hexagon. Hoodie cronut chicharrones artisan kale chips.
 
 [^1]: A dude with beard and a shirt.
@@ -85,5 +83,6 @@ Whatever fanny pack narwhal, organic small batch lumbersexual brooklyn. Gochujan
     type="image/jpg">
   <img class="in-text" alt="Petr sitting and painting." src="https://static.spetex.cz/photos/jpeg1000px/me-painter.jpg">
 </picture>
+<small>The display of ultimate mastery.</small>
 
 Portland gluten-free selfies paleo chartreuse fanny pack pinterest bespoke hoodie godard humblebrag lyft vaporware. Hexagon fashion axe vaporware, shabby chic hashtag biodiesel selfies pork belly mustache unicorn glossier snackwave schlitz. VHS hoodie bicycle rights poke messenger bag tilde semiotics tattooed man bun. Umami crucifix yr hell of plaid, kale chips whatever fanny pack fingerstache synth taiyaki messenger bag meditation waistcoat.
