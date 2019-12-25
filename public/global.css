@@ -39,7 +39,7 @@ h4 {
 h5 {
   font-size: 1.25rem;
 }
-p, blockquote, ul, ol, pre, table, .footnotes, .standout {
+p, blockquote, ul, ol, pre, table, .standout {
   margin-top: 1.5em;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -52,11 +52,10 @@ ul {
   list-style: outside square;
 }
 ol {
-  list-style: outside arabic;
+  list-style: inside arabic;
 }
 ul ol, ol ul, ol ol, ul ul {
   margin-top: 0;
-  margin-left: 1.9rem;
 }
 blockquote {
   border-left: 0.4rem solid;
@@ -97,11 +96,15 @@ pre, .standout {
 }
 .footnotes p {
   margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
   display: inline-block;
 }
 .footnotes ol {
-  padding-left: 0;
   margin-top: 0;
+}
+table {
+  margin-left: 1.5rem;
 }
 thead {
   border-bottom: 1px solid;
@@ -129,5 +132,8 @@ article {
   padding: 2rem 0;
 }
 img {
-  max-width: 100%;
+  width: 100%;
+  max-width: 855px;
+  margin-top: 1.5rem;
+  margin-bottom: -1.5rem;
 }
