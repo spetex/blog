@@ -4,15 +4,21 @@
 <style>
   footer {
     width: 100%;
-    height: 10rem;
-    background: var(--darkslategreen);
-    color: var(--papayawhip);
-    padding-top: 2rem;
+    background: dimgray;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  section {
+    width: 100%;
+    max-width: 800px;
+    flex-grow: 1;
   }
 </style>
 
 <footer>
   <section>
-    Some footer content here.
+    <p>Some profound footer content here.</p>
   </section>
 </footer>

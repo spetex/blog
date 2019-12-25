@@ -13,11 +13,9 @@
 </script>
 
 {#if article}
-	<Header/>
 	<article>
 		{@html article.innerHTML}
 	</article>
-	<Footer/>
 {/if}
 
 {#if homepage}

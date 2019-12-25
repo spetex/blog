@@ -1,41 +1,47 @@
 /* Typography */
 html {
   font-size: 16px;
-  background-image: url('./dust-scratches.png');
 }
 body {
-  font-family: 'Merriweather', serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   line-height: 1.55;
 }
 h1, h2, h3, h4, h5 {
-  font-family: 'Alegreya', serif;
-  font-weight: 700;
+  font-family: 'Bree Serif', serif;
   line-height: 1.15;
-  margin: 2.75rem 0 1rem;
+  margin-top: 2.75rem;
+  padding-left: 1.5rem;
+  max-width: 800px
 }
 code {
   font-family: 'Space Mono', monospace;
   font-weight: 400;
 }
 h1 {
-  font-size: 4.209rem;
+  font-size: 3.052rem;
   margin-top: 0;
 }
 h2 {
-  font-size: 3.157rem;
+  font-size: 2.441rem;
 }
 h3 {
-  font-size: 2.369rem;
+  font-size: 1.953rem;
 }
 h4 {
-  font-size: 1.777rem;
+  font-size: 1.563rem;
 }
 h5 {
-  font-size: 1.333rem;
+  font-size: 1.25rem;
 }
-p {
-  margin-bottom: 1.25em;
+p, blockquote, ul, ol, pre, table, .footnotes, .standout {
+  margin-top: 1.5em;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: 800px
+}
+blockquote > p {
+  margin-top: 0;
 }
 ul {
   list-style: inside square;
@@ -44,36 +50,79 @@ ol {
   list-style: inside arabic;
 }
 ul ol, ol ul, ol ol, ul ul {
-  margin-left: 1.5rem;
+  margin-top: 0;
+  margin-left: 1.9rem;
+}
+blockquote {
+  border-left: 0.4rem solid;
+}
+blockquote > p, q {
+  quotes: "„" "“" "‚" "‘";
+  font-style: italic;
+  padding-left: 0;
+}
+blockquote > p::before, q::before {
+  content: open-quote;
+}
+blockquote > p::after, q::after {
+  content: close-quote;
+}
+strong {
+  font-weight: 700;
+}
+small {
+  font-size: 0.8rem;
+}
+em {
+  font-style: italic;
+}
+sup {
+  vertical-align: super;
+  font-size: 0.6rem;
+}
+pre, .standout {
+  background-color: gainsboro;
+  padding-left: 1.9rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.footnotes {
+  font-size: 0.8rem;
+  margin-top: 2.5rem;
+}
+.footnotes p {
+  margin-top: 0;
+  display: inline-block;
+}
+.footnotes ol {
+  padding-left: 0;
+  margin-top: 0;
+}
+thead {
+  border-bottom: 1px solid;
+  font-weight: 700;
+  text-align: left;
+}
+td, th {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+tbody > tr:nth-child(2n) {
+  background-color: gainsboro;
 }
 
 /* Layout */
-article, main {
-  min-height: 100vh;
-}
-article, section, main {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 article {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  display: inline-block;
+  padding: 2rem 0;
 }
-
 img {
   max-width: 100%;
-}
-
-/* Colors */
-html {
-  color: var(--darkslategray);
-}
-a {
-  color: var(--indianred);
-}
-mark {
-  background-color: var(--goldenrod);
 }
