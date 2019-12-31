@@ -4,8 +4,8 @@
 <style>
   footer {
     width: 100%;
-    background: dimgray;
-    color: white;
+    background: var(--color-secondary-bg);
+    color: var(--color-primary-bg);
     display: flex;
     flex-flow: column;
     align-items: center;

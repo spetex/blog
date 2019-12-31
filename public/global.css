@@ -6,6 +6,8 @@ body {
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
   line-height: 1.55;
+  background: var(--color-primary-bg);
+  color: var(--color-primary-fg);
 }
 h1, h2, h3, h4, h5 {
   font-family: 'Bree Serif', serif;
@@ -85,7 +87,8 @@ sup {
   font-size: 0.6rem;
 }
 pre, .standout {
-  background-color: gainsboro;
+  background-color: var(--color-core-median);
+  color: var(--color-primary-bg);
   padding-left: 1.9rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -118,7 +121,7 @@ td, th {
   padding-bottom: 0.3rem;
 }
 tbody > tr:nth-child(2n) {
-  background-color: gainsboro;
+  background-color: var(--color-secondary-fg);
 }
 
 /* Layout */

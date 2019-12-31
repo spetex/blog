@@ -1,8 +1,16 @@
 /* Colours */
 :root {
-  --darkslategray: #28364a;
-  --papayawhip: #ffeed6;
-  --goldenrod: #f7c45f;
-  --indianred: #f24162;
-  --darkslategreen:  #2d5c5c;
+/* Base Colors */
+  --color-whitesmoke: #F2F2F2;
+  --color-tan: #CAAB96;
+  --color-sienna: #6E443A;
+  --color-dimgrey: #594540;
+  --color-black: #262626;
+
+/* Base Color Definitions */
+  --color-primary-bg: var(--color-whitesmoke);
+  --color-primary-fg: var(--color-black);
+  --color-core-median: var(--color-sienna);
+  --color-secondary-bg: var(--color-dimgrey);
+  --color-secondary-fg: var(--color-tan);
 }
