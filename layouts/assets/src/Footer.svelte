@@ -9,6 +9,11 @@
     display: flex;
     flex-flow: column;
     align-items: center;
+    padding-bottom: 2rem;
+  }
+  footer p {
+    padding-left: 0;
+    padding-right: 0;
   }
   section {
     width: 100%;
