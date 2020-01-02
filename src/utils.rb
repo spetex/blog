@@ -2,6 +2,7 @@ require 'liquid'
 require 'redcarpet'
 
 class Hash; alias + merge end
+
 MARKDOWN_EXTENSIONS = {
   autolink: true,
   disable_indented_code_blocks: true,
@@ -17,7 +18,6 @@ MARKDOWN_EXTENSIONS = {
   tables: true,
   underline: true
 }.freeze
-
 MARKDOWN = Redcarpet::Markdown.new(Redcarpet::Render::HTML, MARKDOWN_EXTENSIONS)
 
 def parse_template(template)
@@ -34,13 +34,10 @@ def final_render(body, vars = {})
 end
 
 def read_vars(config)
-  lines = config.split(/\n/)
-  parsed_config = {}
-
-  lines.each do |line|
-    pair = line.split(': \'')
-    parsed_config[pair[0]] = pair[1].delete_suffix('\'')
-  end
-
-  parsed_config
+  config
+    .split("\n")
+    .map do |line|
+      line.delete_suffix("'").split(': \'')
+    end
+    .to_h
 end
