@@ -14,7 +14,7 @@ class BlogApp < Roda
       render_homepage
     end
     # ARTICLE
-    r.on 'article', String do |article_slug|
+    r.on 'articles', String do |article_slug|
       return render_not_found response unless File.exist? "articles/#{article_slug}.md"
 
       render_article article_slug
