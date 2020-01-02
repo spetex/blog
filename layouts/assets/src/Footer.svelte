@@ -21,6 +21,24 @@
 
 <footer>
   <section>
-    <div>Some profound footer content here.</div>
+    <h1>spetex minis</h1>
+    <p>
+      Writing about my journey to become an artisan miniature painter.
+    </p>
+    <nav>
+      <ul>
+        <li><a href="/">Homepage</a> </li>
+        <li><a href="/articles">Articles</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+    <nav>
+      <ul>
+        <li><a href="https://www.instagram.com/spetex.miniatures/">Instagram</a></li>
+        <li><a href="https://paintpad.app/spetex">PaintPad</a></li>
+        <li><a href="https://www.hobbyscribe.com/spetex">HobbyScribe</a></li>
+      </ul>
+    </nav>
   </section>
 </footer>
