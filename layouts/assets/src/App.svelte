@@ -1,6 +1,5 @@
 <script>
 	import { onMount } from 'svelte'
-	import Header from './Header.svelte'
 	import Footer from './Footer.svelte'
 
 	let article = document.getElementsByTagName('article')[0]
@@ -20,7 +19,6 @@
 {/if}
 
 {#if homepage}
-	<Header/>
 	<main>
 		{@html homepage.innerHTML}
 	</main>
