@@ -157,6 +157,9 @@ article {
   display: inline-block;
   padding: 2rem 0;
 }
+article, main {
+  min-height: 100vh;
+}
 img {
   width: 100%;
   max-width: 855px;
