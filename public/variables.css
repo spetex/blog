@@ -1,7 +1,7 @@
 /* Colours */
 :root {
   /* Base Colors */
-  --color-whitesmoke: #F2F2F2;
+  --color-beige: #F5F5DC;
   --color-tan: #CAAB96;
   --color-sienna: #6E443A;
   --color-woody: #382C28;
@@ -9,13 +9,13 @@
 
   /* Accent Colors */
   --color-royalblue: #1E47B8;
-  --color-darkred: #9D0B0B;
-  --color-mediumblue: #4A4988;
+  --color-darkred: #A70C0C;
+  --color-darkslateblue: #4E4B8B;
 
   --color-goldenrod: #F2BC1B;
 
   /* Base Color Definitions */
-  --color-base-primary-bg: var(--color-whitesmoke);
+  --color-base-primary-bg: var(--color-beige);
   --color-base-primary-fg: var(--color-black);
   --color-base-midtone: var(--color-sienna);
   --color-base-secondary-bg: var(--color-woody);
@@ -23,7 +23,7 @@
 
   /* Accent Color Definitions */
   --color-accent-primary: var(--color-royalblue);
-  --color-accent-secondary: var(--color-mediumblue);
+  --color-accent-secondary: var(--color-darkslateblue);
   --color-accent-important: var(--color-darkred);
   --color-accent-highlight: var(--color-goldenrod);
 }
