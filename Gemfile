@@ -9,7 +9,7 @@ group :development do
   gem 'guard-bundler'
   gem 'guard-rubocop'
   #  gem 'guard-rspec'
-  #  gem 'rspec'
+  gem 'rspec'
   #  gem 'rspec-collection_matchers'
   gem 'rerun'
   gem 'rubocop'
