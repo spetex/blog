@@ -53,11 +53,20 @@ mark {
 a {
   color: var(--color-accent-primary);
 }
-a:active {
-  color: var(--color-accent-important);
-}
 a:visited {
   color: var(--color-accent-secondary);
+}
+a:hover {
+  color: var(--color-base-primary-bg);
+  background: var(--color-accent-primary);
+}
+a:visited:hover {
+  color: var(--color-base-primary-bg);
+  background: var(--color-accent-secondary);
+}
+a:active:hover {
+  color: var(--color-base-primary-bg);
+  background: var(--color-accent-important);
 }
 blockquote > p {
   margin-top: 0;
