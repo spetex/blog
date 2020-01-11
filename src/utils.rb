@@ -41,3 +41,7 @@ def read_vars(config)
     end
     .to_h
 end
+
+def read_article(slug)
+  File.read("articles/#{slug}.md").split('#-----#')
+end

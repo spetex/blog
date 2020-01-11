@@ -1,3 +1,10 @@
 <main>
-  {{ body }}
+  <h1>Articles</h1>
+  <ul>
+  {% for article in articles %}
+    <li>
+      <a href="articles/{{ article.slug }}">{{ article.title }}</a> - {{ article.published }}
+    </li>
+  {% endfor %}
+  </ul>
 </main>

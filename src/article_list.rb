@@ -1,6 +1,14 @@
+def get_articles
+  Dir.children('./articles')
+  .map do |filename|
+    config, article_markdown = read_article filename.split('.')[0]
+    read_vars(config) + { 'slug' => filename.split('.')[0] }
+  end
+end
+
 def render_article_list
   body = get_template('layouts/article_list.html')
-         .render 'body' => '<h1>Articles</h1>'
+         .render 'articles' => get_articles
   vars = {
     'title' => 'Articles',
     'svelte' => true
