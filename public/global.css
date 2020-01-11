@@ -51,21 +51,21 @@ mark {
   background: var(--color-accent-highlight);
   font-style: italic;
 }
-a {
+article a {
   color: var(--color-accent-primary);
 }
-a:visited {
+article a:visited {
   color: var(--color-accent-secondary);
 }
-a:hover {
+article a:hover {
   color: var(--color-base-primary-bg);
   background: var(--color-accent-primary);
 }
-a:visited:hover {
+article a:visited:hover {
   color: var(--color-base-primary-bg);
   background: var(--color-accent-secondary);
 }
-a:active:hover {
+article a:active:hover {
   color: var(--color-base-primary-bg);
   background: var(--color-accent-important);
 }

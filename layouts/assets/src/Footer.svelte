@@ -21,10 +21,18 @@
     list-style: none;
   }
   section {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     max-width: 855px;
     flex-grow: 1;
     margin-top: 1.5rem;
+  }
+  section h1 {
+    margin-top: 0;
+  }
+  section ul {
+    margin-top: 0.8rem;
   }
   nav {
     display: flex;
@@ -36,25 +44,32 @@
     color: var(--color-base-primary-bg);
     text-decoration: none;
   }
+  @media screen and (max-width: 610px) {
+      section {
+        flex-flow: column;
+        align-items: center;
+      }
+  }
 </style>
 
 <footer>
   <section>
-    <h1><a href="https://spetex-minis.com">spetex minis</a></h1>
-    <p>
-      Writing about my journey to become an artisan miniature painter.
-    </p>
+    <div>
+      <h1><a href="https://spetex-minis.com">spetex's minis</a></h1>
+      <p>
+        <q>
+          Writing about my miniature painting journey.
+        </q>
+      </p>
+      </div>
     <nav>
       <ul>
         <li><a href="/">Homepage</a> </li>
         <li><a href="/articles">Articles</a></li>
-        <li><a href="/gallery">Gallery</a></li>
-        <li><a href="/about">About</a></li>
+        <li><a href="/about">About me</a></li>
       </ul>
       <ul>
         <li><a href="https://www.instagram.com/spetex.miniatures/">Instagram</a></li>
-        <li><a href="https://paintpad.app/spetex">PaintPad</a></li>
-        <li><a href="https://www.hobbyscribe.com/spetex">HobbyScribe</a></li>
       </ul>
     </nav>
   </section>
