@@ -7,5 +7,5 @@ Style/Documentation:
 Metrics/MethodLength:
   Max: 15
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 100
