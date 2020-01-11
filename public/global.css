@@ -49,6 +49,7 @@ p, blockquote, ul, ol, pre, table, .standout {
 }
 mark {
   background: var(--color-accent-highlight);
+  font-style: italic;
 }
 a {
   color: var(--color-accent-primary);
