@@ -4,6 +4,11 @@
   {% for article in articles %}
     <li>
       {{ article.published }} - <a href="articles/{{ article.slug }}">{{ article.title }}</a>
+      <ul>
+        {% for tag in article.tags %}
+        <li>{{ tag }}</li>
+        {% endfor %}
+      </ul>
     </li>
   {% endfor %}
   </ul>

@@ -1,5 +1,6 @@
 title: 'Some other article'
 published: '2020-01-11'
+tags: 'keytar'
 #-----#
 
 # {{ title }}

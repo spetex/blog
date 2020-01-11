@@ -6,8 +6,7 @@ def read_articles
 end
 
 def format_articles(articles)
-  articles.map { |article| article + { 'published' => Date.parse(article['published']) } }
-          .sort_by { |article| article['published'] }
+  articles.sort_by { |article| article['published'] }
           .reverse
 end
 

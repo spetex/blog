@@ -34,12 +34,11 @@ def final_render(body, vars = {})
 end
 
 def read_vars(config)
-  config
-    .split("\n")
-    .map do |line|
-      line.delete_suffix("'").split(': \'')
-    end
-    .to_h
+  parsed_config = config.split("\n").map { |line| line.delete_suffix("'").split(': \'') }.to_h
+  if parsed_config['tags']
+    tags = parsed_config['tags'].split(',').map { |tag| tag.delete_prefix(' ') }
+  end
+  parsed_config + { 'published' => Date.parse(parsed_config['published']), 'tags' => tags }
 end
 
 def read_article(slug)

@@ -1,5 +1,6 @@
 title: 'Skateboard helvetica waistcoat'
 published: '2019-12-25'
+tags: 'mumblecore, skateboard, keytar'
 #-----#
 
 # {{ title }}
