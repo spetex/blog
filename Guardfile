@@ -1,3 +1,20 @@
+guard :rspec, cmd: 'bundle exec rspec -f d' do
+  require 'guard/rspec/dsl'
+
+  dsl = Guard::RSpec::Dsl.new(self)
+
+  app_files  = %r{^src/(.+)\.rb$}
+  main_files = /config.ru/
+
+  watch(main_files)         { dsl.rspec.spec_dir }
+  watch(app_files)          { dsl.rspec.spec_dir }
+  watch(dsl.ruby.lib_files) { dsl.rspec.spec_dir }
+
+  watch(dsl.rspec.spec_files)
+  watch(dsl.rspec.spec_helper)  { dsl.rspec.spec_dir }
+  watch(dsl.rspec.spec_support) { dsl.rspec.spec_dir }
+end
+
 guard :rubocop do
   watch(/.+\.rb$/)
   watch('Gemfile')
