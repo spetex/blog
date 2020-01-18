@@ -1,7 +1,7 @@
 /* Colours */
 :root {
   /* Base Colors */
-  --color-beige: #f5f5dc;
+  --color-whitesmoke: #f2f2f2;
   --color-tan: #caab96;
   --color-sienna: #6e443a;
   --color-woody: #382c28;
@@ -15,7 +15,7 @@
   --color-goldenrod: #f2bc1b;
 
   /* Base Color Definitions */
-  --color-base-primary-bg: var(--color-beige);
+  --color-base-primary-bg: var(--color-whitesmoke);
   --color-base-primary-fg: var(--color-black);
   --color-base-midtone: var(--color-sienna);
   --color-base-secondary-bg: var(--color-woody);
