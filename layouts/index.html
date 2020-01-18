@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156056532-2"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-156056532-2"
+    ></script>
     <script src="/ga.js"></script>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <meta name="description" content="{{ description }}">
+    <meta name="description" content="{{ description }}" />
 
     <title>{{ title }}</title>
 
-    <link rel="stylesheet" type="text/css" href="https://static.spetex.cz/css/reset.css">
-  	<link rel="stylesheet" type="text/css" href="/variables.css">
-  	<link rel="stylesheet" type="text/css" href="/global.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://static.spetex.cz/css/reset.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/variables.css" />
+    <link rel="stylesheet" type="text/css" href="/global.css" />
     {% if svelte %}
-    <link rel="stylesheet" type="text/css" href="/build/bundle.css">
+    <link rel="stylesheet" type="text/css" href="/build/bundle.css" />
     <script defer src="/build/bundle.js"></script>
     {% endif %}
 
@@ -24,12 +31,12 @@
       href="https://fonts.googleapis.com/css?family=Rubik:400,400i,700,700i&display=swap"
       crossorigin="anonymous"
       rel="stylesheet"
-    >
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap"
       crossorigin="anonymous"
       rel="stylesheet"
-    >
+    />
   </head>
   <body>
     {{ body }}

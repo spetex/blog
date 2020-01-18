@@ -3,26 +3,30 @@ html {
   font-size: 16px;
 }
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   line-height: 1.55;
   background: var(--color-base-primary-bg);
   color: var(--color-base-primary-fg);
 }
-h1, h2, h3, h4, h5 {
-  font-family: 'Bree Serif', serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bree Serif", serif;
   font-weight: 700;
   line-height: 1.15;
   margin-top: 2.75rem;
   padding-left: 1.5rem;
-  max-width: 800px
+  max-width: 800px;
 }
 thead {
-  font-family: 'Bree Serif', serif;
+  font-family: "Bree Serif", serif;
   font-weight: 700;
 }
 code {
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
   font-weight: 400;
 }
 h1 {
@@ -41,11 +45,17 @@ h4 {
 h5 {
   font-size: 1.25rem;
 }
-p, blockquote, ul, ol, pre, table, .standout {
+p,
+blockquote,
+ul,
+ol,
+pre,
+table,
+.standout {
   margin-top: 1.5em;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  max-width: 800px
+  max-width: 800px;
 }
 mark {
   background: var(--color-accent-highlight);
@@ -78,22 +88,28 @@ ul {
 ol {
   list-style: inside arabic;
 }
-ul ol, ol ul, ol ol, ul ul {
+ul ol,
+ol ul,
+ol ol,
+ul ul {
   margin-top: 0;
 }
 blockquote {
   border-left: 0.4rem solid var(--color-base-midtone);
   color: var(--color-base-midtone);
 }
-blockquote > p, q {
+blockquote > p,
+q {
   quotes: "„" "“" "‚" "‘";
   font-style: italic;
   padding-left: 0;
 }
-blockquote > p::before, q::before {
+blockquote > p::before,
+q::before {
   content: open-quote;
 }
-blockquote > p::after, q::after {
+blockquote > p::after,
+q::after {
   content: close-quote;
 }
 strong {
@@ -109,7 +125,8 @@ sup {
   vertical-align: super;
   font-size: 0.6rem;
 }
-pre, .standout {
+pre,
+.standout {
   background-color: var(--color-base-midtone);
   color: var(--color-base-primary-bg);
   padding-left: 1.9rem;
@@ -137,7 +154,8 @@ thead {
   font-weight: 700;
   text-align: left;
 }
-td, th {
+td,
+th {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 0.3rem;
@@ -153,7 +171,8 @@ body {
   flex-flow: column;
   align-items: center;
 }
-article, main {
+article,
+main {
   display: inline-block;
   padding: 2rem 0;
   min-height: 100vh;
@@ -165,7 +184,8 @@ img {
   margin-bottom: -1.5rem;
 }
 @media screen and (min-width: 855px) {
-  article, main {
+  article,
+  main {
     min-width: 855px;
   }
 }

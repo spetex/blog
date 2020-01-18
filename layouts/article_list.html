@@ -1,15 +1,16 @@
 <main>
   <h1>Articles</h1>
   <ul>
-  {% for article in articles %}
+    {% for article in articles %}
     <li>
-      {{ article.published | date: "%b %d, %Y" }} - <a href="articles/{{ article.slug }}">{{ article.title }}</a>
+      {{ article.published | date: "%b %d, %Y" }} -
+      <a href="articles/{{ article.slug }}">{{ article.title }}</a>
       <ul>
         {% for tag in article.tags %}
         <li>{{ tag }}</li>
         {% endfor %}
       </ul>
     </li>
-  {% endfor %}
+    {% endfor %}
   </ul>
 </main>

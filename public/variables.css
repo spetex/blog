@@ -1,18 +1,18 @@
 /* Colours */
 :root {
   /* Base Colors */
-  --color-beige: #F5F5DC;
-  --color-tan: #CAAB96;
-  --color-sienna: #6E443A;
-  --color-woody: #382C28;
+  --color-beige: #f5f5dc;
+  --color-tan: #caab96;
+  --color-sienna: #6e443a;
+  --color-woody: #382c28;
   --color-black: #262626;
 
   /* Accent Colors */
-  --color-royalblue: #1E47B8;
-  --color-darkred: #A70C0C;
-  --color-darkslateblue: #4E4B8B;
+  --color-royalblue: #1e47b8;
+  --color-darkred: #a70c0c;
+  --color-darkslateblue: #4e4b8b;
 
-  --color-goldenrod: #F2BC1B;
+  --color-goldenrod: #f2bc1b;
 
   /* Base Color Definitions */
   --color-base-primary-bg: var(--color-beige);
