@@ -11,12 +11,6 @@
     align-items: center;
     padding-bottom: 2rem;
   }
-  a {
-    color: var(--color-accent-highlight);
-  }
-  a:active {
-    color: var(--color-accent-active);
-  }
   ul {
     list-style: none;
   }
@@ -40,7 +34,7 @@
   h1 {
     font-weight: 400;
   }
-  h1 > a {
+  a {
     color: var(--color-base-primary-bg);
     text-decoration: none;
   }
