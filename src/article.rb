@@ -8,6 +8,6 @@ def render_article(slug)
     'svelte' => true
   } + read_vars(config)
   body = get_template('layouts/article.html')
-         .render 'body' => get_article_body(article_markdown, vars)
+         .render({ 'body' => get_article_body(article_markdown, vars) } + vars)
   final_render(body, vars)
 end

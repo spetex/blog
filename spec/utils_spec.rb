@@ -8,6 +8,9 @@ RSpec.describe do
     it 'parses article published' do
       expect(read_vars("published: '2019-10-10'")['published']).to eq(Date.parse('2019-10-10'))
     end
+    it 'parses article picture' do
+      expect(read_vars("picture: 'foo'\npublished: '2019-10-10'")['picture']).to eq('foo')
+    end
     it 'parses article tags' do
       string = "title: 'Foo'\npublished: '2019-10-10'\ntags: 'orange, keytar'"
       expect(read_vars(string)['tags']).to eq(%w[keytar orange])

@@ -61,21 +61,26 @@ mark {
   background: var(--color-accent-highlight);
   font-style: italic;
 }
-article a {
+article a,
+main a {
   color: var(--color-accent-primary);
 }
-article a:visited {
+article a:visited,
+main a:visited {
   color: var(--color-accent-secondary);
 }
-article a:hover {
+article a:hover,
+main a:hover {
   color: var(--color-base-primary-bg);
   background: var(--color-accent-primary);
 }
-article a:visited:hover {
+article a:visited:hover,
+main a:visited:hover {
   color: var(--color-base-primary-bg);
   background: var(--color-accent-secondary);
 }
-article a:active:hover {
+article a:active:hover,
+main a:active:hover {
   color: var(--color-base-primary-bg);
   background: var(--color-accent-important);
 }
