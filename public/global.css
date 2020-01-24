@@ -198,12 +198,6 @@ header > * {
 .article-header strong {
   color: var(--color-accent-highlight);
 }
-article {
-  padding-bottom: 2rem;
-}
-main {
-  padding-top: 2rem;
-}
 .title-picture {
   margin-top: -3rem;
 }
@@ -214,8 +208,8 @@ main {
     width: 855px;
   }
 }
-
-img {
+article img,
+main img {
   width: 100%;
   max-width: 855px;
   margin-top: 1.5rem;
