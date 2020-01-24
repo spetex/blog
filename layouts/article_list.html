@@ -1,15 +1,53 @@
 <main>
   <h1>Articles</h1>
-  <ul>
+  <ul class="articles">
     {% for article in articles %}
     <li>
-      {{ article.published | date: "%b %d, %Y" }} -
-      <a href="articles/{{ article.slug }}">{{ article.title }}</a>
-      <ul>
-        {% for tag in article.tags %}
-        <li>{{ tag }}</li>
-        {% endfor %}
-      </ul>
+      {% if article.picture %}
+      <a class="no-underline" href="articles/{{ article.slug }}">
+        <picture>
+          <source
+            srcset="
+      https://static.spetex.cz/photos/webp1000px/{{ article.picture }}.webp 1000w,
+      https://static.spetex.cz/photos/webp500px/{{ article.picture }}.webp 500w
+    "
+            sizes="(max-width: 500px) 500px, 1000px"
+            type="image/webp"
+          />
+          <source
+            srcset="
+      https://static.spetex.cz/photos/jpeg1000px/{{ article.picture }}.jpg 1000w,
+      https://static.spetex.cz/photos/jpeg500px/{{ article.picture }}.jpg 500w
+    "
+            sizes="(max-width: 500px) 500px, 1000px"
+            type="image/jpg"
+          />
+          <img
+            alt="Petr sitting and painting."
+            src="https://static.spetex.cz/photos/jpeg1000px/{{ article.picture }}.jpg"
+          />
+        </picture>
+      </a>
+      {% endif %}
+      <aside>
+        <h2><a href="articles/{{ article.slug }}">{{ article.title }}</a></h2>
+        <div class="meta">
+          {% if article.author %}<small
+            >by <strong>{{ article.author }}</strong></small
+          >{% endif %}
+          <small
+            >on
+            <strong>{{ article.published | date: "%b %d, %Y" }}</strong></small
+          >
+        </div>
+        {% if article.tags %}
+        <ul class="tags">
+          {% for tag in article.tags %}
+          <li class="{{ tag }}"><small>{{ tag }}</small></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </aside>
     </li>
     {% endfor %}
   </ul>

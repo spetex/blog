@@ -51,6 +51,7 @@ ul,
 ol,
 pre,
 table,
+.articles > li,
 .standout {
   margin-top: 1.5em;
   padding-left: 1.5rem;
@@ -187,6 +188,7 @@ main,
 header > * {
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 .article-header {
   padding-top: 2rem;
@@ -208,10 +210,59 @@ header > * {
     width: 855px;
   }
 }
+main {
+  margin-top: 2rem;
+}
 article img,
 main img {
   width: 100%;
   max-width: 855px;
   margin-top: 1.5rem;
   margin-bottom: -1.5rem;
+}
+.tags {
+  margin-top: 1.5rem;
+}
+.tags > li {
+  display: inline-block;
+  list-style: none;
+  background: var(--color-base-midtone);
+  color: var(--color-base-primary-bg);
+  border-radius: 1rem;
+  padding: 0.01rem 0.5rem;
+}
+.articles {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 831px;
+}
+.articles > li {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+  max-width: 831px;
+}
+@media screen and (min-width: 544px) {
+  .articles > li {
+    flex-flow: row;
+  }
+  .articles img {
+    max-width: 10rem;
+    padding-left: 1.5rem;
+  }
+}
+.articles h2 {
+  margin-top: 0;
+  font-size: 1.563rem;
+}
+.articles img {
+  margin: 0;
+}
+.articles .meta {
+  margin-left: 1.5rem;
+}
+a.no-underline:visited:hover {
+  background: ;
 }
