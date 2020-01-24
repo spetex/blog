@@ -1,4 +1,4 @@
-title: 'Hello World Article!'
+title: 'Tips to get better at painting.'
 published: '2020-01-12'
 #-----#
 

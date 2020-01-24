@@ -1,8 +1,8 @@
-title: 'Some other article'
+title: 'Painting human skin.'
 published: '2020-01-11'
 author: 'Petr Sahula'
 abstract: 'Fashion axe glossier actually, brooklyn snackwave church-key hexagon venmo artisan 8-bit retro. Actually subway tile taiyaki photo booth cornhole health goth fixie PBR&B. Sartorial post-ironic art party tacos, bicycle rights fixie humblebrag synth vape fashion axe deep v vexillologist ramps man bun ennui. Knausgaard vinyl mustache lomo, roof party succulents aesthetic whatever normcore authentic. Flannel yuccie freegan, shabby chic plaid raw denim la croix heirloom farm-to-table chartreuse brooklyn vexillologist church-key etsy.'
-tags: 'keytar'
+tags: 'painting'
 #-----#
 
 Lorem ipsum dolor amet shabby chic ramps lyft raclette gochujang master cleanse bespoke jean shorts lumbersexual [^1] stumptown listicle [edison bulb](..../). Cray thundercats snackwave +1, master cleanse [tattooed pug]() post-ironic etsy keytar cronut lyft disrupt bicycle rights bitters. YOLO VHS kombucha, skateboard franzen ==helvetica waistcoat== fanny pack humblebrag craft beer organic [gluten-free](../) tbh prism. Vinyl poke pinterest hexagon. Hoodie cronut chicharrones artisan kale chips.
