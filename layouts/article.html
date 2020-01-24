@@ -3,44 +3,47 @@
     <h1>{{ title }}</h1>
     <p>
       <small>
-        Published on: <strong>{{ published | date: "%b %d, %Y" }}</strong>
+        Published on:
+        <strong>{{ published | date: "%b %d, %Y" }}</strong>
         <br />
-        By: <strong>{{ author }}</strong>
-      <br />
-        Tags: {% for tag in tags %}
-        <strong>{{ tag }}</strong>{% if tags.last != tag %},{% endif %}
-        {% endfor %}
+        {% if author %} By: <strong>{{ author }}</strong>
+        <br />
+        {% endif %} {% if tags %} Tags: {% for tag in tags %}
+        <strong>{{ tag }}</strong>{% if tags.last != tag %},{% endif %} {%
+        endfor %} {% endif %}
       </small>
     </p>
+    {% if abstract %}
     <p>{{ abstract }}</p>
+    {% endif %}
   </section>
 </header>
 <article>
   {% if picture %}
   <div>
-  <picture>
-    <source
-      srcset="
+    <picture>
+      <source
+        srcset="
       https://static.spetex.cz/photos/webp1000px/{{ picture }}.webp 1000w,
       https://static.spetex.cz/photos/webp500px/{{ picture }}.webp 500w
     "
-      sizes="(max-width: 500px) 500px, 1000px"
-      type="image/webp"
-    />
-    <source
-      srcset="
+        sizes="(max-width: 500px) 500px, 1000px"
+        type="image/webp"
+      />
+      <source
+        srcset="
       https://static.spetex.cz/photos/jpeg1000px/{{ picture }}.jpg 1000w,
       https://static.spetex.cz/photos/jpeg500px/{{ picture }}.jpg 500w
     "
-      sizes="(max-width: 500px) 500px, 1000px"
-      type="image/jpg"
-    />
-    <img
-      class="in-text title-picture"
-      alt="Petr sitting and painting."
-      src="https://static.spetex.cz/photos/jpeg1000px/{{ picture }}.jpg"
-    />
-  </picture>
+        sizes="(max-width: 500px) 500px, 1000px"
+        type="image/jpg"
+      />
+      <img
+        class="in-text title-picture"
+        alt="Petr sitting and painting."
+        src="https://static.spetex.cz/photos/jpeg1000px/{{ picture }}.jpg"
+      />
+    </picture>
   </div>
   <p><small>{{ title }}</small></p>
   {% endif %} {{ body }}
