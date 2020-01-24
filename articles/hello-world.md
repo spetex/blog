@@ -2,8 +2,6 @@ title: 'Hello World Article!'
 published: '2020-01-12'
 #-----#
 
-# {{ title }}
-
 Lorem ipsum dolor amet shabby chic ramps lyft raclette gochujang master cleanse bespoke jean shorts lumbersexual [^1] stumptown listicle [edison bulb](..../). Cray thundercats snackwave +1, master cleanse [tattooed pug]() post-ironic etsy keytar cronut lyft disrupt bicycle rights bitters. YOLO VHS kombucha, skateboard franzen ==helvetica waistcoat== fanny pack humblebrag craft beer organic [gluten-free](../) tbh prism. Vinyl poke pinterest hexagon. Hoodie cronut chicharrones artisan kale chips.
 
 [^1]: A dude with beard and a shirt.
