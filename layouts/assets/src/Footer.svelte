@@ -38,24 +38,36 @@
     color: var(--color-base-primary-bg);
     text-decoration: none;
   }
+  .spetex {
+    width: 5rem;
+    border-radius: 100%
+  }
+  aside {
+    display: flex;
+    align-items: center;
+  }
   @media screen and (max-width: 610px) {
       section {
         flex-flow: column;
         align-items: center;
       }
   }
+
 </style>
 
 <footer>
   <section>
-    <div>
-      <h1><a href="https://spetex-minis.com">spetex's minis</a></h1>
-      <p>
-        <q>
-          Writing about my miniature painting journey.
-        </q>
-      </p>
+    <aside>
+      <img class="spetex" alt="spetex" src="https://static.spetex.cz/random/spetex.jpg">
+      <div>
+        <h1><a href="https://spetex-minis.com">spetex miniatures</a></h1>
+        <p>
+          <q>
+            Blogging about my miniature painting journey.
+          </q>
+        </p>
       </div>
+    </aside>
     <nav>
       <ul>
         <li><a href="/">Homepage</a> </li>
