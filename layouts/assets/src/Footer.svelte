@@ -24,8 +24,6 @@
     flex-grow: 1;
     flex-flow: column;
     align-items: center;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
   }
   section h1 {
     margin-top: 0;
