@@ -2,6 +2,7 @@ title: 'What is miniature painting?'
 published: '2019-12-25'
 author: 'Petr Sahula'
 picture: 'me-painter'
+intro: 'Whatever fanny pack narwhal, organic small batch lumbersexual brooklyn. Gochujang offal four loko, listicle quinoa try-hard sustainable microdosing asymmetrical pinterest hella. Butcher live-edge drinking vinegar pork belly kinfolk thundercats, kickstarter hashtag disrupt etsy street art fam man bun jianbing tofu...'
 abstract: 'Fashion axe glossier actually, brooklyn snackwave church-key hexagon venmo artisan 8-bit retro. Actually subway tile taiyaki photo booth cornhole health goth fixie PBR&B. Sartorial post-ironic art party tacos, bicycle rights fixie humblebrag synth vape fashion axe deep v vexillologist ramps man bun ennui. Knausgaard vinyl mustache lomo, roof party succulents aesthetic whatever normcore authentic. Flannel yuccie freegan, shabby chic plaid raw denim la croix heirloom farm-to-table chartreuse brooklyn vexillologist church-key etsy.'
 tags: 'tutorial, warhammer, painting'
 #-----#

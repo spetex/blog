@@ -66,7 +66,7 @@
     color: var(--color-base-primary-bg);
     text-decoration: none;
   }
-  a:hover {
+  nav a:hover {
     text-decoration: underline;
   }
   .spetex {

@@ -62,23 +62,11 @@ mark {
   background: var(--color-accent-highlight);
   font-style: italic;
 }
-article a {
+a {
   color: var(--color-accent-primary);
 }
-article a:visited {
+a:visited {
   color: var(--color-accent-secondary);
-}
-article a:hover {
-  color: var(--color-base-primary-bg);
-  background: var(--color-accent-primary);
-}
-article a:visited:hover {
-  color: var(--color-base-primary-bg);
-  background: var(--color-accent-secondary);
-}
-article a:active:hover {
-  color: var(--color-base-primary-bg);
-  background: var(--color-accent-important);
 }
 blockquote > p {
   margin-top: 0;
@@ -224,7 +212,10 @@ main img {
   background: var(--color-base-midtone);
   color: var(--color-base-primary-bg);
   border-radius: 1rem;
-  padding: 0.01rem 0.5rem;
+  padding: 0 0.5rem 0.1rem 0.5rem;
+}
+.tags small {
+  font-size: 0.7rem;
 }
 .articles {
   padding-left: 0;
@@ -257,4 +248,11 @@ main img {
 }
 .articles .meta {
   margin-left: 1.5rem;
+}
+.articles h2 a {
+  text-decoration: none;
+  color: var(--color-base-primary-fg);
+}
+.articles aside {
+  margin-top: 3.5rem;
 }

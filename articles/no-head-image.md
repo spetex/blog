@@ -1,6 +1,7 @@
 title: 'Painting human skin.'
 published: '2020-01-11'
 author: 'Petr Sahula'
+intro: 'Portland gluten-free selfies paleo chartreuse fanny pack pinterest bespoke hoodie godard humblebrag lyft vaporware. Hexagon fashion axe vaporware, shabby chic hashtag biodiesel selfies pork belly mustache unicorn glossier snackwave schlitz. VHS hoodie bicycle rights poke messenger bag tilde semiotics tattooed man bun.'
 abstract: 'Fashion axe glossier actually, brooklyn snackwave church-key hexagon venmo artisan 8-bit retro. Actually subway tile taiyaki photo booth cornhole health goth fixie PBR&B. Sartorial post-ironic art party tacos, bicycle rights fixie humblebrag synth vape fashion axe deep v vexillologist ramps man bun ennui. Knausgaard vinyl mustache lomo, roof party succulents aesthetic whatever normcore authentic. Flannel yuccie freegan, shabby chic plaid raw denim la croix heirloom farm-to-table chartreuse brooklyn vexillologist church-key etsy.'
 tags: 'painting'
 #-----#

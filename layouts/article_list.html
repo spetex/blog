@@ -3,34 +3,10 @@
   <ul class="articles">
     {% for article in articles %}
     <li>
-      {% if article.picture %}
-      <a class="no-underline" href="articles/{{ article.slug }}">
-        <picture>
-          <source
-            srcset="
-      https://static.spetex.cz/photos/webp1000px/{{ article.picture }}.webp 1000w,
-      https://static.spetex.cz/photos/webp500px/{{ article.picture }}.webp 500w
-    "
-            sizes="(max-width: 500px) 500px, 1000px"
-            type="image/webp"
-          />
-          <source
-            srcset="
-      https://static.spetex.cz/photos/jpeg1000px/{{ article.picture }}.jpg 1000w,
-      https://static.spetex.cz/photos/jpeg500px/{{ article.picture }}.jpg 500w
-    "
-            sizes="(max-width: 500px) 500px, 1000px"
-            type="image/jpg"
-          />
-          <img
-            alt="Petr sitting and painting."
-            src="https://static.spetex.cz/photos/jpeg1000px/{{ article.picture }}.jpg"
-          />
-        </picture>
-      </a>
-      {% endif %}
       <aside>
-        <h2><a href="articles/{{ article.slug }}">{{ article.title }}</a></h2>
+        <h2>
+          <a href="articles/{{ article.slug }}">{{ article.title }}</a>
+        </h2>
         <div class="meta">
           {% if article.author %}<small
             >by <strong>{{ article.author }}</strong></small
@@ -43,10 +19,14 @@
         {% if article.tags %}
         <ul class="tags">
           {% for tag in article.tags %}
-          <li class="{{ tag }}"><small>{{ tag }}</small></li>
+          <li class="{{ tag }}">
+            <small>{{ tag }}</small>
+          </li>
           {% endfor %}
         </ul>
         {% endif %}
+        <p>{{ article.intro }}</p>
+        <p><a href="articles/{{ article.slug }}">Read more...</a></p>
       </aside>
     </li>
     {% endfor %}
