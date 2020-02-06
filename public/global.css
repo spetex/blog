@@ -62,26 +62,21 @@ mark {
   background: var(--color-accent-highlight);
   font-style: italic;
 }
-article a,
-main a {
+article a {
   color: var(--color-accent-primary);
 }
-article a:visited,
-main a:visited {
+article a:visited {
   color: var(--color-accent-secondary);
 }
-article a:hover,
-main a:hover {
+article a:hover {
   color: var(--color-base-primary-bg);
   background: var(--color-accent-primary);
 }
-article a:visited:hover,
-main a:visited:hover {
+article a:visited:hover {
   color: var(--color-base-primary-bg);
   background: var(--color-accent-secondary);
 }
-article a:active:hover,
-main a:active:hover {
+article a:active:hover {
   color: var(--color-base-primary-bg);
   background: var(--color-accent-important);
 }
@@ -262,7 +257,4 @@ main img {
 }
 .articles .meta {
   margin-left: 1.5rem;
-}
-a.no-underline:visited:hover {
-  background: ;
 }
