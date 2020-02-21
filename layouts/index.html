@@ -37,9 +37,8 @@
     />
     <link rel="stylesheet" type="text/css" href="/variables.css" />
     <link rel="stylesheet" type="text/css" href="/global.css" />
-    {% if svelte %}
-    <link rel="stylesheet" type="text/css" href="/build/bundle.css" />
-    <script defer src="/build/bundle.js"></script>
+    {% if footer %}
+    <link rel="stylesheet" type="text/css" href="/footer.css" />
     {% endif %}
 
     <link
@@ -55,5 +54,8 @@
   </head>
   <body>
     {{ body }}
+    {% if footer %}
+    {{ footer }}
+    {% endif %}
   </body>
 </html>

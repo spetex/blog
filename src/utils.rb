@@ -29,8 +29,10 @@ def get_template(path)
 end
 
 def final_render(body, vars = {})
+  footer = get_template('layouts/footer.html').render
+
   get_template('layouts/index.html')
-    .render({ 'body' => body } + vars)
+    .render({ 'body' => body, 'footer' => footer } + vars)
 end
 
 def read_vars(config)
