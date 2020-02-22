@@ -1,3 +1,23 @@
 <main>
   {{ body }}
+  <div class="grid">
+    {% for article in articles limit:7 %}
+    <div class="grid-item">
+      <a href="articles/{{ article.slug }}">
+        {% if article.picture %}
+        <img
+          class="grid-image"
+          src="https://res.cloudinary.com/dnepr2nve/image/upload/v1582384224/blog/{{ article.picture }}.jpg"
+        />
+        {% else %}
+        <div class="article-image-placeholder">
+          <p>{{ article.title }}</p>
+        </div>
+        {% endif %}
+        <p>{{ article.title }}</p>
+      </a>
+      {% if articles.first == article %}<p class="intro">{{ article.intro }}</p>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
 </main>
