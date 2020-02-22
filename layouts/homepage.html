@@ -8,14 +8,22 @@
         {% if article.picture %}
         <img
           class="grid-image"
-          src="https://res.cloudinary.com/dnepr2nve/image/upload/v1582384224/blog/{{ article.picture }}.jpg"
+          src="https://res.cloudinary.com/dnepr2nve/image/upload/v1582384224/blog/{{
+            article.picture
+          }}.jpg"
         />
         {% else %}
         <div class="article-image-placeholder">
           <p>{{ article.title }}</p>
         </div>
         {% endif %}
-        <p><strong>{{ article.title }}</strong></p>
+        <h4>{{ article.title }}</h4>
+        <p>
+        <small
+          >on
+          <strong>{{ article.published | date: "%b %d, %Y" }}</strong></small
+        >
+        </p>
       </a>
       <p class="intro">{{ article.intro }}</p>
     </div>

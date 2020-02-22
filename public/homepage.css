@@ -1,7 +1,7 @@
 .grid {
   margin-top: 1.5rem;
   display: grid;
-  grid-gap: 4rem;
+  grid-gap: 8rem;
   grid-template-columns: repeat(auto-fit, minmax(266px, 1fr));
   grid-auto-flow: dense;
 }
@@ -51,9 +51,14 @@
   transition: 0.1s ease-in-out;
 }
 
+h4 {
+  margin-top: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 @media screen and (min-width: 542px) {
   .grid {
-    grid-gap: 1rem;
+    grid-gap: 2rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
@@ -74,12 +79,7 @@
     grid-column: span 3;
     flex-flow: row;
   }
-  .grid-item .intro {
-    display: none;
-  }
-
   .grid-item:first-child .intro {
-    display: block;
     max-width: 16rem;
   }
 }
