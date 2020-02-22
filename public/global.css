@@ -193,9 +193,6 @@ header > * {
     width: 855px;
   }
 }
-main {
-  margin-top: 2rem;
-}
 article img,
 main img {
   width: 100%;

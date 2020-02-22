@@ -1,5 +1,6 @@
 <main>
   {{ body }}
+  <h2>Articles</h2>
   <div class="grid">
     {% for article in articles limit:7 %}
     <div class="grid-item">
@@ -14,10 +15,11 @@
           <p>{{ article.title }}</p>
         </div>
         {% endif %}
-        <p>{{ article.title }}</p>
+        <p><strong>{{ article.title }}</strong></p>
       </a>
       {% if articles.first == article %}<p class="intro">{{ article.intro }}</p>{% endif %}
     </div>
     {% endfor %}
   </div>
+  <p><a href="/articles">Show more content...</a></p>
 </main>

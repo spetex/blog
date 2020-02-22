@@ -1,4 +1,5 @@
 .grid {
+  margin-top: 1.5rem;
   display: grid;
   grid-gap: 4rem;
   grid-template-columns: repeat(auto-fit, minmax(266px, 1fr));
@@ -16,6 +17,7 @@
 
 .grid-item a {
   text-decoration: none;
+  color: var(--color-base-primary-fg);
 }
 
 .article-image-placeholder {
