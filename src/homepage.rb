@@ -1,6 +1,6 @@
 def render_homepage
   body = get_template('layouts/homepage.html')
-         .render 'body' => '<h1>Welcome to my Blog!</h1>'
+         .render 'articles' => read_articles.sort_by { |article| article['published'] }.reverse
   vars = {
     'title' => 'Homepage',
     'svelte' => true
