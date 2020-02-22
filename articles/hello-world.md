@@ -1,5 +1,6 @@
 title: 'Tips to get better at painting.'
 published: '2020-01-12'
+picture: 'me-programmer'
 intro: 'Fashion axe glossier actually, brooklyn snackwave church-key hexagon venmo artisan 8-bit retro. Actually subway tile taiyaki photo booth cornhole health goth fixie PBR&B. Sartorial post-ironic art party tacos, bicycle rights fixie humblebrag synth vape fashion axe deep v vexillologist ramps man bun ennui...'
 #-----#
 
