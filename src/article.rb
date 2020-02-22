@@ -9,5 +9,5 @@ def render_article(slug)
   } + read_vars(config)
   body = get_template('layouts/article.html')
          .render({ 'body' => get_article_body(article_markdown, vars) } + vars)
-  final_render(body, vars)
+  final_render(body, vars, false, true)
 end

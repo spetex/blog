@@ -5,5 +5,5 @@ def render_homepage
     'title' => 'Homepage',
     'svelte' => true
   }
-  final_render(body, vars)
+  final_render(body, vars, true, false)
 end

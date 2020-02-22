@@ -12,5 +12,5 @@ def render_article_list
     'title' => 'Articles',
     'svelte' => true
   }
-  final_render(body, vars)
+  final_render(body, vars, true, true)
 end

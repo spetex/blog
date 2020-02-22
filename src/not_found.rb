@@ -6,5 +6,5 @@ def render_not_found(response)
     'title' => 'Page not found!',
     'svelte' => true
   }
-  final_render(body, vars)
+  final_render(body, vars, false, true)
 end
