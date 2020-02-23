@@ -1,6 +1,6 @@
 <header class="article-header">
   <section>
-    <h1>{{ title }}</h1>
+    <h1>{{ title }} - {{ slug }}</h1>
     <p>
       <small>
         Published on:
@@ -9,8 +9,8 @@
         {% if author %} By: <strong>{{ author }}</strong>
         <br />
         {% endif %} {% if tags %} Tags: {% for tag in tags %}
-        <strong>{{ tag }}</strong>{% if tags.last != tag %},{% endif %} {%
-        endfor %} {% endif %}
+        <strong>{{ tag }}</strong
+        >{% if tags.last != tag %},{% endif %} {% endfor %} {% endif %}
       </small>
     </p>
     {% if abstract %}
@@ -41,10 +41,16 @@
       <img
         class="in-text title-picture"
         alt="Petr sitting and painting."
-        src="https://res.cloudinary.com/dnepr2nve/image/upload/q_auto/v1582384188/blog/{{ picture }}.jpg"
+        src="https://res.cloudinary.com/dnepr2nve/image/upload/q_auto/v1582384188/blog/{{
+          picture
+        }}.jpg"
       />
     </picture>
   </div>
-  <p><small>{{ title }}</small></p>
+  <p>
+    <small>{{ title }}</small>
+  </p>
   {% endif %} {{ body }}
+  <div id="disqus_thread" data-slug="{{ slug }}"></div>
 </article>
+<script src="/disqus.js"></script>
