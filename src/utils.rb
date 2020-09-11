@@ -28,7 +28,7 @@ def get_template(path)
   parse_template(File.read(path))
 end
 
-def final_render(body, vars = {}, withheader = false, withfooter = false)
+def final_render(body, vars = {}, withheader: false, withfooter: false)
   withfooter && footer = get_template('layouts/footer.html').render
   withheader && header = get_template('layouts/header.html').render
 
